@@ -1,0 +1,60 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 70px;
+    background: #0c0e1c;
+    color: white;
+}
+
+.main {
+    text-align: center;
+    border: dashed 6px white;
+    box-sizing: border-box;
+    /* У даному випадку, робить border фіксований розмір. Тобно скільки ми не поміщали б туди тексту/картинок, розмір залишиться фіксованим. */
+    width: 500px;
+    height: 115px;
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrap {
+    display: flex;
+}
+
+.about {
+    width: 1000px;
+}
+
+.table {
+    border: solid 1px gray;
+    width: 300px;
+    margin-left: 200px;
+    margin-top: 115px;
+}
+
+.heading1 {
+    text-align: center;
+    background: DarkSlateBlue;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.padding1 {
+    margin: 20px;
+}
+
+.nav {
+    border: solid 1px gray;
+    width: 300px;
+}
+
+.heading2 {
+    text-align: center;
+}
+
+.justify {
+    text-align: justify;
+}
